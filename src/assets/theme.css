@@ -1,0 +1,13 @@
+body {
+  background-color: #f3f5f7;
+}
+
+.modal-header .btn-close {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+ul,
+li {
+  list-style: none;
+}

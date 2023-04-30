@@ -1,0 +1,22 @@
+.ag-root-wrapper {
+  font-family: iransans_Fa;
+  font-size: 12px;
+}
+
+.ag-root-wrapper span {
+  font-family: iransans_Fa;
+  font-size: 12px;
+}
+.ag-theme-alpine {
+  --ag-borders-row: dashed 1px;
+  --ag-row-border-color: #1a337b;
+}
+
+div.ag-theme-alpine div.ag-row {
+  font-size: 12px !important;
+}
+
+.ag-theme-alpine .ag-icon-filter::before {
+  content: "\f002" !important;
+  font-family: 'Font Awesome 5 Pro';
+}

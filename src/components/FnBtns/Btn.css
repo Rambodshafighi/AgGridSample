@@ -1,0 +1,119 @@
+/* .btnRpw{
+
+} */
+button,
+button:hover,
+button:active,
+button:visited,
+button:focus{
+    outline: 0 !important
+}
+
+/* Btn Row Align Config */
+
+.btnRow.left{
+    text-align: left
+}
+.btnRow.center{
+    text-align: center
+}
+.btnRow.right{
+    text-align: right
+}
+
+
+.eyeBtn i{
+    color: var(--blue);
+    font-size: 18px
+}
+.eyeBtn i:hover{
+    color: var(--darkGreen);
+}
+.banBtn i{
+    color: var(--red)
+}
+.unBanBtn i{
+    color: var(--green)
+}
+
+/* Btn Default Config */
+
+.btnRow button {
+    border:none;
+    margin: 8px 5px;
+    padding: 3px 11px;
+    background-color: var(--main)
+}
+.btnRow button:hover {
+    background-color: var(--main-light)
+}
+
+.btnRow button.Secondary {
+    background-color: var(--main-dark);
+}
+
+.btnRow button.Secondary:hover {
+    background-color: var(--red-light);
+}
+
+.btnRow button span{
+    font-size: 16px;
+    display: block;
+    padding-bottom: 3px
+}
+
+
+.btnRow button.active {
+    background-color: var(--red) !important;
+    box-shadow: -1px 1px 3px #4e4e4e;
+}
+
+
+.AddBtn, .RemoveBtn, .EditBtn, .banBtn, .unBanBtn, .eyeBtn, .CopyBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.AddBtn i{
+    color: var(--teal);
+    font-size: 18px
+}
+.AddBtn:hover > i{
+    color: var(--success)
+}
+
+.RemoveBtn i{
+    color: var(--red);
+    font-size: 18px
+}
+.EditBtn i{
+    color: var(--yellow);
+    font-size: 18px
+}
+.EditBtn:hover i{
+    color: var(--orange);
+}
+.CopyBtn i{
+    color: var(--primary);
+    font-size: 18px
+}
+.CopyBtn:hover i{
+    color: var(--indigo);
+}
+.RemoveBtn:hover > i{
+    color: var(--darkRed)
+}
+
+.hoverable .AddBtn,
+.hoverable .RemoveBtn,
+.hoverable .EditBtn{
+    opacity: 0;
+    transition: all .2s linear
+}
+
+.hoverable span:hover > .AddBtn,
+.hoverable span:hover > .RemoveBtn,
+.hoverable span:hover > .EditBtn{
+    opacity: 1;
+}
